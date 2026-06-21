@@ -6,6 +6,10 @@ export interface ResponsePhoto {
   next_page: string;
 }
 
+export interface Photos {
+  photos: Photo[];
+}
+
 export interface Photo {
   id: number;
   width: number;
